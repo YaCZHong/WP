@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WP.FULLSCREEN" parent="Theme.WP">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--控制刘海处显示-->
+        <!--default   :在竖屏模式下，内容会呈现到刘海区域中；但在横屏模式下，内容会显示黑边-->
+        <!--shortEdges:在竖屏模式和横屏模式下，内容都会呈现到刘海区域中-->
+        <!--never     :内容从不呈现到刘海区域中-->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">阅图</string>
+
+    <string name="retry">点击重试</string>
+    <string name="load_error">加载失败</string>
+    <string name="waiting_for_load_completed">请等待图片加载完成</string>
+    <string name="set_as_wallpaper">设为壁纸</string>
+    <string name="set_as_wallpaper_success">设置成功</string>
+    <string name="set_as_wallpaper_failure">设置失败</string>
+</resources>
